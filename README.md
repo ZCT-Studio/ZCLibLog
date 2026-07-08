@@ -4,7 +4,7 @@
 
 ![Language](https://img.shields.io/badge/language-C%2B%2B-blue)
 ![Standard](https://img.shields.io/badge/C%2B%2B-11%2B-brightgreen)
-![License](https://img.shields.io/github/license/CZF-H/ZCLibLog)
+![License](https://img.shields.io/github/license/ZCT-Studio/ZCLibLog)
 
 ---
 

@@ -1,4 +1,3 @@
-// Copyright 2026 CZF-H
 // Licensed under the Apache License, Version 2.0
 
 //
@@ -12,7 +11,8 @@
 namespace ZCLibLog {
     static const char* PROJECT_NAME = "ZCLibLog"; // 项目名称
     static const char* AUTHORS_NAME[] = {
-        "江芷酱紫",
+        "WJiangzhi",
+        "TingIA"
     }; // 项目作者们
 }
 

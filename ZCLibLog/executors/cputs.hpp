@@ -1,8 +1,7 @@
-// Copyright 2026 CZF-H
 // Licensed under the Apache License, Version 2.0
 
 //
-// Created by TingIAAI on 2026/4/4.
+// Created by TingIA on 2026/4/4.
 //
 
 #ifndef ZCLIBLOG_EXECUTORS_CPUTS_HPP

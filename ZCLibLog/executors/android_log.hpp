@@ -21,7 +21,7 @@ namespace ZCLibLog {
          * @author wanjiangzhi
          */
         struct android_log : executor_api {
-            explicit android_log(const char* tag = PROJECT_NAME) : tag(tag) {}
+            explicit android_log(const char* tag = Constants::ProjectName) : tag(tag) {}
             void do_execute(ELString msg, ELogLevel lv) override {
                 int android_level = ANDROID_LOG_INFO;
                 switch (lv) {

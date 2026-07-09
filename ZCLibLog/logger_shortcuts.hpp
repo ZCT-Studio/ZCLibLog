@@ -32,7 +32,7 @@ namespace ZCLibLog {
     namespace shortcuts  {
         inline LoggerSync<>& DefaultLoggerSync() {
             static LoggerSync<> logger{
-                PROJECT_NAME,
+                Constants::ProjectName,
                 {
                     executor::make<executors::cstdio>()
                 }
@@ -41,7 +41,7 @@ namespace ZCLibLog {
         }
         inline LoggerAsync<>& DefaultLoggerAsync() {
             static LoggerAsync<> logger{
-                PROJECT_NAME,
+                Constants::ProjectName,
                 {
                     executor::make<executors::cstdio>()
                 }

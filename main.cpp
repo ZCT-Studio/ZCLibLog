@@ -9,7 +9,7 @@
 
 using LoggerType = ZCLibLog::LoggerSync<ZCLibLog::formatters::csnprintf>;
 LoggerType Logger{
-    ZCLibLog::PROJECT_NAME,
+    ZCLibLog::Constants::ProjectName,
 };
 
 int main() {
@@ -19,7 +19,7 @@ int main() {
 
     const auto start = std::chrono::steady_clock::now();
 
-    Logger.INFO("Hello %s!", PROJECT_NAME);
+    Logger.INFO("Hello %s!", Constants::ProjectName);
 
     const auto end = std::chrono::steady_clock::now();
     const auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start);

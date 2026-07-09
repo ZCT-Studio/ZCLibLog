@@ -6,14 +6,17 @@
 
 #ifndef ZCLIBLOG_LOGGER_CONSTANTS_HPP
 #define ZCLIBLOG_LOGGER_CONSTANTS_HPP
-// ReSharper disable CppUseAuto
 
 namespace ZCLibLog {
-    static const char* PROJECT_NAME = "ZCLibLog"; // 项目名称
-    static const char* AUTHORS_NAME[] = {
-        "WJiangzhi",
-        "TingIA"
-    }; // 项目作者们
+    namespace Constants {
+        constexpr auto ProjectName = "ZCLibLog";
+        constexpr const char* Authors[] {
+            "WJiangzhi",
+            "TingIA"
+          };
+        constexpr auto VersionName = "1.0.0";
+        constexpr unsigned long Version = 100000;
+    }
 }
 
 // ReSharper enable CppUseAuto

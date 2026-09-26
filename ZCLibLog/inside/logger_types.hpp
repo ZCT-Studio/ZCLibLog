@@ -305,6 +305,7 @@ namespace ZCLibLog {
         /// @brief 检查是否可执行
         ZCLibLog_NODISCARD bool check_executable() const {
             if (
+                m_logger &&
                 m_logger->has_executor() &&
                 m_logger->be_executable(level())
             )

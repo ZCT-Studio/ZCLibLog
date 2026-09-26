@@ -30,7 +30,7 @@ namespace ZCLibLog {
         Register(WARN,  4) \
         Register(ERROR, 5) \
         Register(FATAL, 6) \
-        Register(OFF, 0xFFFF)
+        Register(OFF, std::numeric_limits<LogLevelBase>::max())
 
     #pragma push_macro("ALL")
     #pragma push_macro("ERROR")

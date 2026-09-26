@@ -10,6 +10,7 @@
 #include <memory>
 #include <utility>
 #include <type_traits>
+#include <limits>
 
 #include "logger_macros.h"
 
@@ -29,7 +30,7 @@ namespace ZCLibLog {
         Register(WARN,  4) \
         Register(ERROR, 5) \
         Register(FATAL, 6) \
-        Register(OFF, std::numeric_limits<LogLevelBase>::max())
+        Register(OFF, 0xFFFF)
 
     /// @brief 一些日志等级
     enum class LogLevel : LogLevelBase {
